@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="21.453589">
+<testcase classname="Ebay Home" name="_2" time="21.453589">
+<system-out><![CDATA[When I user goes to "https://www.ebay.com/".................................passed
+Then user clicks on serach button...........................................passed
+Then user searches for "Iphone".............................................passed
+Then user clicks on Search button to search the item........................passed
+]]></system-out>
+</testcase>
+</testsuite>

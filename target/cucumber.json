@@ -1,0 +1,89 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2019-06-10T03:43:59.638Z",
+        "line": 3,
+        "name": "",
+        "description": "",
+        "id": "ebay-home;",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 12386457146,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "I user goes to \"https://www.ebay.com/\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"https://www.ebay.com/\"",
+                  "offset": 15
+                }
+              ],
+              "location": "HomeStepDefs.i_user_goes_to(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 139082404,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user clicks on serach button",
+            "match": {
+              "location": "HomeStepDefs.user_clicks_on_serach_button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2337741620,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user searches for \"Iphone\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Iphone\"",
+                  "offset": 18
+                }
+              ],
+              "location": "HomeStepDefs.user_searches_for(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 6587266393,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user clicks on Search button to search the item",
+            "match": {
+              "location": "HomeStepDefs.user_clicks_on_Search_button_to_search_the_item()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@home"
+          }
+        ]
+      }
+    ],
+    "name": "Ebay Home",
+    "description": "",
+    "id": "ebay-home",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/com/Ebay/features/home.feature",
+    "tags": []
+  }
+]
