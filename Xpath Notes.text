@@ -1,0 +1,3 @@
+//a[contains (@href, ‘testingexcellence.com’)][contains(text(),‘Testing Excellence’)]
+https://www.testingexcellence.com/how-to-locate-web-elements-in-webdriver/
+

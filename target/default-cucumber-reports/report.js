@@ -5,7 +5,7 @@ formatter.feature({
   "keyword": "Feature"
 });
 formatter.scenario({
-  "name": "",
+  "name": "Ebay Automation",
   "description": "",
   "keyword": "Scenario",
   "tags": [
