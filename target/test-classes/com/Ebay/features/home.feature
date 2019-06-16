@@ -1,6 +1,6 @@
 Feature: Ebay Home
 @home
-Scenario:
+Scenario: Ebay Automation
  When I user goes to "https://www.ebay.com/"
  Then user clicks on serach button
  Then  user searches for "Iphone"

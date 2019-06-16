@@ -3,17 +3,17 @@
     "line": 1,
     "elements": [
       {
-        "start_timestamp": "2019-06-10T03:43:59.638Z",
+        "start_timestamp": "2019-06-10T04:16:02.659Z",
         "line": 3,
-        "name": "",
+        "name": "Ebay Automation",
         "description": "",
-        "id": "ebay-home;",
+        "id": "ebay-home;ebay-automation",
         "type": "scenario",
         "keyword": "Scenario",
         "steps": [
           {
             "result": {
-              "duration": 12386457146,
+              "duration": 4695372246,
               "status": "passed"
             },
             "line": 4,
@@ -31,7 +31,7 @@
           },
           {
             "result": {
-              "duration": 139082404,
+              "duration": 185098628,
               "status": "passed"
             },
             "line": 5,
@@ -43,7 +43,7 @@
           },
           {
             "result": {
-              "duration": 2337741620,
+              "duration": 3612149208,
               "status": "passed"
             },
             "line": 6,
@@ -61,7 +61,7 @@
           },
           {
             "result": {
-              "duration": 6587266393,
+              "duration": 7333543672,
               "status": "passed"
             },
             "line": 7,
