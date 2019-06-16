@@ -3,7 +3,11 @@
     "line": 1,
     "elements": [
       {
+<<<<<<< HEAD
+        "start_timestamp": "2019-06-10T04:16:02.659Z",
+=======
         "start_timestamp": "2019-06-16T08:09:09.854Z",
+>>>>>>> 325522d256dc626a24f4d3b9a9e5231c648125b0
         "line": 3,
         "name": "Ebay Automation",
         "description": "",
@@ -13,7 +17,11 @@
         "steps": [
           {
             "result": {
+<<<<<<< HEAD
+              "duration": 4695372246,
+=======
               "duration": 4390587940,
+>>>>>>> 325522d256dc626a24f4d3b9a9e5231c648125b0
               "status": "passed"
             },
             "line": 4,
@@ -31,7 +39,11 @@
           },
           {
             "result": {
+<<<<<<< HEAD
+              "duration": 185098628,
+=======
               "duration": 142918057,
+>>>>>>> 325522d256dc626a24f4d3b9a9e5231c648125b0
               "status": "passed"
             },
             "line": 5,
@@ -43,7 +55,11 @@
           },
           {
             "result": {
+<<<<<<< HEAD
+              "duration": 3612149208,
+=======
               "duration": 1917544824,
+>>>>>>> 325522d256dc626a24f4d3b9a9e5231c648125b0
               "status": "passed"
             },
             "line": 6,
@@ -61,7 +77,11 @@
           },
           {
             "result": {
+<<<<<<< HEAD
+              "duration": 7333543672,
+=======
               "duration": 6206131372,
+>>>>>>> 325522d256dc626a24f4d3b9a9e5231c648125b0
               "status": "passed"
             },
             "line": 7,
