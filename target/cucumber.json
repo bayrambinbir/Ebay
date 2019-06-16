@@ -3,7 +3,7 @@
     "line": 1,
     "elements": [
       {
-        "start_timestamp": "2019-06-13T03:09:09.060Z",
+        "start_timestamp": "2019-06-16T03:47:42.876Z",
         "line": 3,
         "name": "Ebay Automation",
         "description": "",
@@ -13,25 +13,25 @@
         "steps": [
           {
             "result": {
-              "duration": 12545817120,
+              "duration": 8598955877,
               "status": "passed"
             },
             "line": 4,
-            "name": "I user goes to \"https://www.ebay.com/\"",
+            "name": "user goes to \"https://www.ebay.com/\"",
             "match": {
               "arguments": [
                 {
                   "val": "\"https://www.ebay.com/\"",
-                  "offset": 15
+                  "offset": 13
                 }
               ],
-              "location": "HomeStepDefs.i_user_goes_to(String)"
+              "location": "HomeStepDefs.user_goes_to(String)"
             },
             "keyword": "When "
           },
           {
             "result": {
-              "duration": 155915394,
+              "duration": 644210219,
               "status": "passed"
             },
             "line": 5,
@@ -43,7 +43,7 @@
           },
           {
             "result": {
-              "duration": 190761578,
+              "duration": 574845723,
               "status": "passed"
             },
             "line": 6,
@@ -61,7 +61,7 @@
           },
           {
             "result": {
-              "duration": 8251522857,
+              "duration": 11228483723,
               "status": "passed"
             },
             "line": 7,

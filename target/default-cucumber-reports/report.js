@@ -15,11 +15,11 @@ formatter.scenario({
   ]
 });
 formatter.step({
-  "name": "I user goes to \"https://www.ebay.com/\"",
+  "name": "user goes to \"https://www.ebay.com/\"",
   "keyword": "When "
 });
 formatter.match({
-  "location": "HomeStepDefs.i_user_goes_to(String)"
+  "location": "HomeStepDefs.user_goes_to(String)"
 });
 formatter.result({
   "status": "passed"

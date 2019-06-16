@@ -13,9 +13,9 @@ public class HomeStepDefs {
 	WebDriver driver = Driver.getDriver();
 	HomePages homePages = new HomePages();
 	
-	@When("I user goes to {string}")
-	public void i_user_goes_to(String url) {
-	   driver.get(url); 
+	@When("user goes to {string}")
+	public void user_goes_to(String url) {
+	   driver.get(url);
 	}
 
 	@Then("user clicks on serach button")
@@ -24,12 +24,13 @@ public class HomeStepDefs {
 	}
 
 	@Then("user searches for {string}")
-	public void user_searches_for(String iphone) {
-	  homePages.searchForAnthingButton.sendKeys(iphone);
+	public void user_searches_for(String item) {
+		homePages.searchForAnthingButton.sendKeys(item);
 	}
 	
 	@Then("user clicks on Search button to search the item")
 	public void user_clicks_on_Search_button_to_search_the_item() {
-	    homePages.searchButton.click();
+	homePages.searchButton.click();
 	}
+	
 }

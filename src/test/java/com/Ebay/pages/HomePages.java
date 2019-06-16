@@ -19,4 +19,5 @@ public class HomePages {
 	public WebElement searchButton;
 	
 	
+	//Notes
 }
