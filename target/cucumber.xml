@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="21.05294">
-<testcase classname="Ebay Home" name="Ebay Automation" time="21.05294">
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="20.079606">
+<testcase classname="Ebay Home" name="Ebay Automation" time="20.079606">
 <system-out><![CDATA[When user goes to "https://www.ebay.com/"...................................passed
 Then user clicks on serach button...........................................passed
 Then user searches for "Iphone".............................................passed
 Then user clicks on Search button to search the item........................passed
+Then user clicks on item <6> to purchase it if item is "New" and choose "Gold" as desired color.passed
 ]]></system-out>
 </testcase>
 </testsuite>

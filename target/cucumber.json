@@ -3,7 +3,7 @@
     "line": 1,
     "elements": [
       {
-        "start_timestamp": "2019-06-16T03:47:42.876Z",
+        "start_timestamp": "2019-06-16T08:09:09.854Z",
         "line": 3,
         "name": "Ebay Automation",
         "description": "",
@@ -13,7 +13,7 @@
         "steps": [
           {
             "result": {
-              "duration": 8598955877,
+              "duration": 4390587940,
               "status": "passed"
             },
             "line": 4,
@@ -31,7 +31,7 @@
           },
           {
             "result": {
-              "duration": 644210219,
+              "duration": 142918057,
               "status": "passed"
             },
             "line": 5,
@@ -43,7 +43,7 @@
           },
           {
             "result": {
-              "duration": 574845723,
+              "duration": 1917544824,
               "status": "passed"
             },
             "line": 6,
@@ -61,13 +61,39 @@
           },
           {
             "result": {
-              "duration": 11228483723,
+              "duration": 6206131372,
               "status": "passed"
             },
             "line": 7,
             "name": "user clicks on Search button to search the item",
             "match": {
               "location": "HomeStepDefs.user_clicks_on_Search_button_to_search_the_item()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 7414651757,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user clicks on item \u003c6\u003e to purchase it if item is \"New\" and choose \"Gold\" as desired color",
+            "match": {
+              "arguments": [
+                {
+                  "val": "6",
+                  "offset": 21
+                },
+                {
+                  "val": "\"New\"",
+                  "offset": 50
+                },
+                {
+                  "val": "\"Gold\"",
+                  "offset": 67
+                }
+              ],
+              "location": "HomeStepDefs.user_clicks_on_item_to_purchase_it_if_item_is_and_choose_as_desired_color(Integer,String,String)"
             },
             "keyword": "Then "
           }

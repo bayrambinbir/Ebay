@@ -54,4 +54,14 @@ formatter.match({
 formatter.result({
   "status": "passed"
 });
+formatter.step({
+  "name": "user clicks on item \u003c6\u003e to purchase it if item is \"New\" and choose \"Gold\" as desired color",
+  "keyword": "Then "
+});
+formatter.match({
+  "location": "HomeStepDefs.user_clicks_on_item_to_purchase_it_if_item_is_and_choose_as_desired_color(Integer,String,String)"
+});
+formatter.result({
+  "status": "passed"
+});
 });
