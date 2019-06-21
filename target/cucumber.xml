@@ -1,17 +1,19 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<<<<<<< HEAD
-<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="15.829552">
-<testcase classname="Ebay Home" name="Ebay Automation" time="15.829552">
-<system-out><![CDATA[When I user goes to "https://www.ebay.com/".................................passed
-=======
-<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="20.079606">
-<testcase classname="Ebay Home" name="Ebay Automation" time="20.079606">
-<system-out><![CDATA[When user goes to "https://www.ebay.com/"...................................passed
->>>>>>> 325522d256dc626a24f4d3b9a9e5231c648125b0
-Then user clicks on serach button...........................................passed
-Then user searches for "Iphone".............................................passed
-Then user clicks on Search button to search the item........................passed
-Then user clicks on item <6> to purchase it if item is "New" and choose "Gold" as desired color.passed
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="2" time="24.959155">
+<testcase classname="Ebay Register" name="Ebay New Account Registration" time="16.447363">
+<system-out><![CDATA[When I go to "https://www.ebay.com/"........................................passed
+Then I get the title of Ebay to make sure that I am in Ebay.................passed
+Then I click on Register Button.............................................passed
+Then type "Fener" , "Bahce1907" , "fb19075@gmail.com" and "Sampiyon1907"....passed
+Then I click on Create Account Button.......................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Ebay Register" name="Ebay New Account Registration 2" time="8.511792">
+<system-out><![CDATA[When I go to "https://www.ebay.com/"........................................passed
+Then I get the title of Ebay to make sure that I am in Ebay.................passed
+Then I click on Register Button.............................................passed
+Then type "Fener1907" , "Bahce" , "fb19079@gmail.com" and "SampiyonAziz"....passed
+Then I click on Create Account Button.......................................passed
 ]]></system-out>
 </testcase>
 </testsuite>

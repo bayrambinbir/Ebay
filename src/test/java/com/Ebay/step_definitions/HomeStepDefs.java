@@ -3,9 +3,7 @@ package com.Ebay.step_definitions;
 import org.openqa.selenium.WebDriver;
 
 import com.Ebay.pages.HomePages;
-import com.Ebay.utilities.BrowserUtils;
 import com.Ebay.utilities.Driver;
-
 import cucumber.api.java.en.Then;
 import cucumber.api.java.en.When;
 
@@ -13,14 +11,14 @@ public class HomeStepDefs {
 
 	WebDriver driver = Driver.getDriver();
 	HomePages homePages = new HomePages();
-
+	
 	@When("user goes to {string}")
-	public void user_goes_to(String url) {
-		driver.get(url);
+	public void user_goes_to(String ebayUrl) {
+		driver.get(ebayUrl);
 	}
 
-	@Then("user clicks on serach button")
-	public void user_clicks_on_serach_button() {
+	@Then("user clicks on search button")
+	public void user_clicks_on_search_button() {
 		homePages.searchForAnthingButton.click();
 	}
 
@@ -38,7 +36,6 @@ public class HomeStepDefs {
 	public void user_clicks_on_item_to_purchase_it_if_item_is_and_choose_as_desired_color(Integer number, String condition, String color) {
 		homePages.clickOnItem(number);
 		homePages.buyIfNew(condition, color);
-	
 	}
 
 }

@@ -33,10 +33,10 @@ public class HomePages {
 
 	@FindBy(id = "binBtn_btn")
 	public WebElement buyItNowButton;
-	
-	public void clickOnBuyItButton () {
+
+	public void clickOnBuyItButton() {
 		js.executeScript("arguments[0].click();", buyItNowButton);
-		//buyItNowButton.click();
+		// buyItNowButton.click();
 	}
 
 	@FindBy(id = "msku-sel-1")
@@ -51,16 +51,15 @@ public class HomePages {
 		List<WebElement> items = driver.findElements(By.xpath("//a[@class='s-item__link']"));
 		System.out.println("ITEM NAME: " + items.get(number - 1).getText());
 		items.get(number - 1).click();
-
 	}
 
 	public void buyIfNew(String condition, String color) {
 		String conditionTextFromEbay = conditionButton.getText();
 		System.out.println("CONDITION: " + conditionTextFromEbay);
-		
 		if (conditionTextFromEbay.toLowerCase().equals(condition.toLowerCase())) {
 			selectColor(color);
 			clickOnBuyItButton();
+
 		}
 	}
 
