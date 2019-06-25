@@ -17,7 +17,7 @@ import cucumber.api.junit.Cucumber;
 
 },
 
-		tags = {"@register" }, 
+		tags = {"@signIn" }, 
 		features = "src/test/resources/com/Ebay/features", 
 		glue = "com/Ebay/step_definitions", 
 		dryRun = false, 

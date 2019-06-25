@@ -54,5 +54,6 @@ public class RegisterStepDefs {
 	public void i_click_on_Create_Account_Button() {
 		BrowserUtils.waitFor(2);
 		registerPages.createAccount.click();
+		BrowserUtils.waitFor(2);
 	}
 }

@@ -3,35 +3,35 @@
     "line": 1,
     "elements": [
       {
-        "start_timestamp": "2019-06-21T03:29:27.728Z",
+        "start_timestamp": "2019-06-25T04:21:43.589Z",
         "line": 13,
-        "name": "Ebay New Account Registration",
+        "name": "Ebay Sign in",
         "description": "",
-        "id": "ebay-register;ebay-new-account-registration;;2",
+        "id": "ebay-sign-in;ebay-sign-in;;2",
         "type": "scenario",
         "keyword": "Scenario Outline",
         "steps": [
           {
             "result": {
-              "duration": 5689225270,
+              "duration": 3988198408,
               "status": "passed"
             },
             "line": 5,
-            "name": "I go to \"https://www.ebay.com/\"",
+            "name": "I am on ebay website \"https://www.ebay.com/\"",
             "match": {
               "arguments": [
                 {
                   "val": "\"https://www.ebay.com/\"",
-                  "offset": 8
+                  "offset": 21
                 }
               ],
-              "location": "RegisterStepDefs.i_go_to(String)"
+              "location": "SignInStepDefs.i_am_on_ebay_website(String)"
             },
             "keyword": "When "
           },
           {
             "result": {
-              "duration": 21706966,
+              "duration": 20049822,
               "status": "passed"
             },
             "line": 6,
@@ -43,171 +43,63 @@
           },
           {
             "result": {
-              "duration": 3291521547,
+              "duration": 4267277133,
               "status": "passed"
             },
             "line": 7,
-            "name": "I click on Register Button",
+            "name": "I click on Sign In Button",
             "match": {
-              "location": "RegisterStepDefs.i_click_on_Register_Button()"
+              "location": "SignInStepDefs.i_click_on_Sign_In_Button()"
             },
             "keyword": "Then "
           },
           {
             "result": {
-              "duration": 2435316373,
+              "duration": 1985401746,
               "status": "passed"
             },
             "line": 8,
-            "name": "type \"Fener\" , \"Bahce1907\" , \"fb19075@gmail.com\" and \"Sampiyon1907\"",
+            "name": "I type \"Fener\" and \"Sampiyon1907\"",
             "match": {
               "arguments": [
                 {
                   "val": "\"Fener\"",
-                  "offset": 5
-                },
-                {
-                  "val": "\"Bahce1907\"",
-                  "offset": 15
-                },
-                {
-                  "val": "\"fb19075@gmail.com\"",
-                  "offset": 29
+                  "offset": 7
                 },
                 {
                   "val": "\"Sampiyon1907\"",
-                  "offset": 53
-                }
-              ],
-              "location": "RegisterStepDefs.type_and(String,String,String,String)"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 5005420221,
-              "status": "passed"
-            },
-            "line": 9,
-            "name": "I click on Create Account Button",
-            "match": {
-              "location": "RegisterStepDefs.i_click_on_Create_Account_Button()"
-            },
-            "keyword": "Then "
-          }
-        ],
-        "tags": [
-          {
-            "name": "@register"
-          }
-        ]
-      },
-      {
-        "start_timestamp": "2019-06-21T03:29:44.178Z",
-        "line": 14,
-        "name": "Ebay New Account Registration",
-        "description": "",
-        "id": "ebay-register;ebay-new-account-registration;;3",
-        "type": "scenario",
-        "keyword": "Scenario Outline",
-        "steps": [
-          {
-            "result": {
-              "duration": 2081422040,
-              "status": "passed"
-            },
-            "line": 5,
-            "name": "I go to \"https://www.ebay.com/\"",
-            "match": {
-              "arguments": [
-                {
-                  "val": "\"https://www.ebay.com/\"",
-                  "offset": 8
-                }
-              ],
-              "location": "RegisterStepDefs.i_go_to(String)"
-            },
-            "keyword": "When "
-          },
-          {
-            "result": {
-              "duration": 75995996,
-              "status": "passed"
-            },
-            "line": 6,
-            "name": "I get the title of Ebay to make sure that I am in Ebay",
-            "match": {
-              "location": "RegisterStepDefs.i_get_the_title_of_Ebay_to_make_sure_that_I_am_in_Ebay()"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 2165211284,
-              "status": "passed"
-            },
-            "line": 7,
-            "name": "I click on Register Button",
-            "match": {
-              "location": "RegisterStepDefs.i_click_on_Register_Button()"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 2126687421,
-              "status": "passed"
-            },
-            "line": 8,
-            "name": "type \"Fener1907\" , \"Bahce\" , \"fb19079@gmail.com\" and \"SampiyonAziz\"",
-            "match": {
-              "arguments": [
-                {
-                  "val": "\"Fener1907\"",
-                  "offset": 5
-                },
-                {
-                  "val": "\"Bahce\"",
                   "offset": 19
-                },
-                {
-                  "val": "\"fb19079@gmail.com\"",
-                  "offset": 29
-                },
-                {
-                  "val": "\"SampiyonAziz\"",
-                  "offset": 53
                 }
               ],
-              "location": "RegisterStepDefs.type_and(String,String,String,String)"
+              "location": "SignInStepDefs.i_type_and(String,String)"
             },
             "keyword": "Then "
           },
           {
             "result": {
-              "duration": 2062092559,
+              "duration": 2053108561,
               "status": "passed"
             },
             "line": 9,
-            "name": "I click on Create Account Button",
+            "name": "I click on Sign In Button",
             "match": {
-              "location": "RegisterStepDefs.i_click_on_Create_Account_Button()"
+              "location": "SignInStepDefs.i_click_on_Sign_In_Button()"
             },
             "keyword": "Then "
           }
         ],
         "tags": [
           {
-            "name": "@register"
+            "name": "@signIn"
           }
         ]
       }
     ],
-    "name": "Ebay Register",
+    "name": "Ebay Sign In",
     "description": "",
-    "id": "ebay-register",
+    "id": "ebay-sign-in",
     "keyword": "Feature",
-    "uri": "file:src/test/resources/com/Ebay/features/register.feature",
+    "uri": "file:src/test/resources/com/Ebay/features/signIn.feature",
     "tags": []
   }
 ]

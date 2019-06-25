@@ -9,7 +9,6 @@ Feature: Ebay Register
     Then I click on Create Account Button
 
     Examples: 
-      | name      | lastName  | email             | password     |
-      | Fener     | Bahce1907 | fb19075@gmail.com | Sampiyon1907 |
-      | Fener1907 | Bahce     | fb19079@gmail.com | SampiyonAziz |
-     
+      | name      | lastName  | email                | password       |
+      | Fener     | Bahce1907 | fb19075578@gmail.com | Sampiyon19076  |
+      | Fener1907 | Bahce     | fb19079578@gmail.com | SampiyonAzizz1 |

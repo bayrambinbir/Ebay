@@ -1,19 +1,11 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="2" time="24.959155">
-<testcase classname="Ebay Register" name="Ebay New Account Registration" time="16.447363">
-<system-out><![CDATA[When I go to "https://www.ebay.com/"........................................passed
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="12.317901">
+<testcase classname="Ebay Sign In" name="Ebay Sign in" time="12.317901">
+<system-out><![CDATA[When I am on ebay website "https://www.ebay.com/"...........................passed
 Then I get the title of Ebay to make sure that I am in Ebay.................passed
-Then I click on Register Button.............................................passed
-Then type "Fener" , "Bahce1907" , "fb19075@gmail.com" and "Sampiyon1907"....passed
-Then I click on Create Account Button.......................................passed
-]]></system-out>
-</testcase>
-<testcase classname="Ebay Register" name="Ebay New Account Registration 2" time="8.511792">
-<system-out><![CDATA[When I go to "https://www.ebay.com/"........................................passed
-Then I get the title of Ebay to make sure that I am in Ebay.................passed
-Then I click on Register Button.............................................passed
-Then type "Fener1907" , "Bahce" , "fb19079@gmail.com" and "SampiyonAziz"....passed
-Then I click on Create Account Button.......................................passed
+Then I click on Sign In Button..............................................passed
+Then I type "Fener" and "Sampiyon1907"......................................passed
+Then I click on Sign In Button..............................................passed
 ]]></system-out>
 </testcase>
 </testsuite>
