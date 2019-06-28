@@ -25,12 +25,16 @@ public class SignInStepDefs {
 	@Then("I click on Sign In Button")
 	public void i_click_on_Sign_In_Button() {
 		// click on the sign in button
-		try {
-			driver.findElement(By.xpath("//a[contains(@href,'signin.ebay')]")).click();
-		} catch (Exception e) {
-			System.out.println("EXCEPTION: "+e);
-		}
-		BrowserUtils.waitFor(2);
+		
+			//driver.findElement(By.xpath("//a[contains(text(),'Sign in')]")).click();
+			// OR
+		
+			try {
+				driver.findElement(By.xpath("//a[contains(@href,'signin.ebay')]")).click();
+			} catch (Exception e) {
+				// TODO: handle exception
+			}
+		
 	}
 
 	@Then("I type {string} and {string}")

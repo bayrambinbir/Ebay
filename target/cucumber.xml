@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="12.317901">
-<testcase classname="Ebay Sign In" name="Ebay Sign in" time="12.317901">
-<system-out><![CDATA[When I am on ebay website "https://www.ebay.com/"...........................passed
-Then I get the title of Ebay to make sure that I am in Ebay.................passed
-Then I click on Sign In Button..............................................passed
-Then I type "Fener" and "Sampiyon1907"......................................passed
-Then I click on Sign In Button..............................................passed
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="23.934089">
+<testcase classname="Ebay Shopping Samsung" name="Ebay Shopping Automation" time="23.934089">
+<system-out><![CDATA[When user goes to "https://www.ebay.com/"...................................passed
+Then user clicks on search button...........................................passed
+Then user searches for "Samsung"............................................passed
+Then user clicks on Search button to search the item........................passed
+Then user buys the Brand New samsung........................................passed
 ]]></system-out>
 </testcase>
 </testsuite>

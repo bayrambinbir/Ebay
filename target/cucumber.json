@@ -3,103 +3,99 @@
     "line": 1,
     "elements": [
       {
-        "start_timestamp": "2019-06-25T04:21:43.589Z",
-        "line": 13,
-        "name": "Ebay Sign in",
+        "start_timestamp": "2019-06-28T03:07:48.932Z",
+        "line": 3,
+        "name": "Ebay Shopping Automation",
         "description": "",
-        "id": "ebay-sign-in;ebay-sign-in;;2",
+        "id": "ebay-shopping-samsung;ebay-shopping-automation",
         "type": "scenario",
-        "keyword": "Scenario Outline",
+        "keyword": "Scenario",
         "steps": [
           {
             "result": {
-              "duration": 3988198408,
+              "duration": 7844931522,
               "status": "passed"
             },
-            "line": 5,
-            "name": "I am on ebay website \"https://www.ebay.com/\"",
+            "line": 4,
+            "name": "user goes to \"https://www.ebay.com/\"",
             "match": {
               "arguments": [
                 {
                   "val": "\"https://www.ebay.com/\"",
-                  "offset": 21
+                  "offset": 13
                 }
               ],
-              "location": "SignInStepDefs.i_am_on_ebay_website(String)"
+              "location": "HomeStepDefs.user_goes_to(String)"
             },
             "keyword": "When "
           },
           {
             "result": {
-              "duration": 20049822,
+              "duration": 207499032,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user clicks on search button",
+            "match": {
+              "location": "HomeStepDefs.user_clicks_on_search_button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1836568249,
               "status": "passed"
             },
             "line": 6,
-            "name": "I get the title of Ebay to make sure that I am in Ebay",
-            "match": {
-              "location": "RegisterStepDefs.i_get_the_title_of_Ebay_to_make_sure_that_I_am_in_Ebay()"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 4267277133,
-              "status": "passed"
-            },
-            "line": 7,
-            "name": "I click on Sign In Button",
-            "match": {
-              "location": "SignInStepDefs.i_click_on_Sign_In_Button()"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 1985401746,
-              "status": "passed"
-            },
-            "line": 8,
-            "name": "I type \"Fener\" and \"Sampiyon1907\"",
+            "name": "user searches for \"Samsung\"",
             "match": {
               "arguments": [
                 {
-                  "val": "\"Fener\"",
-                  "offset": 7
-                },
-                {
-                  "val": "\"Sampiyon1907\"",
-                  "offset": 19
+                  "val": "\"Samsung\"",
+                  "offset": 18
                 }
               ],
-              "location": "SignInStepDefs.i_type_and(String,String)"
+              "location": "HomeStepDefs.user_searches_for(String)"
             },
             "keyword": "Then "
           },
           {
             "result": {
-              "duration": 2053108561,
+              "duration": 7565364197,
               "status": "passed"
             },
-            "line": 9,
-            "name": "I click on Sign In Button",
+            "line": 7,
+            "name": "user clicks on Search button to search the item",
             "match": {
-              "location": "SignInStepDefs.i_click_on_Sign_In_Button()"
+              "location": "HomeStepDefs.user_clicks_on_Search_button_to_search_the_item()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 6475335202,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user buys the Brand New samsung",
+            "match": {
+              "location": "EbayShoppingSamsungStepDefs.user_buys_the_Brand_New_samsung()"
             },
             "keyword": "Then "
           }
         ],
         "tags": [
           {
-            "name": "@signIn"
+            "name": "@shoppingSamsung"
           }
         ]
       }
     ],
-    "name": "Ebay Sign In",
+    "name": "Ebay Shopping Samsung",
     "description": "",
-    "id": "ebay-sign-in",
+    "id": "ebay-shopping-samsung",
     "keyword": "Feature",
-    "uri": "file:src/test/resources/com/Ebay/features/signIn.feature",
+    "uri": "file:src/test/resources/com/Ebay/features/ebayShoppingSamsung.feature",
     "tags": []
   }
 ]

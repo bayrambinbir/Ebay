@@ -1,114 +1,65 @@
-$(document).ready(function() {var formatter = new CucumberHTML.DOMFormatter($('.cucumber-report'));formatter.uri("file:src/test/resources/com/Ebay/features/signIn.feature");
+$(document).ready(function() {var formatter = new CucumberHTML.DOMFormatter($('.cucumber-report'));formatter.uri("file:src/test/resources/com/Ebay/features/ebayShoppingSamsung.feature");
 formatter.feature({
-  "name": "Ebay Sign In",
+  "name": "Ebay Shopping Samsung",
   "description": "",
   "keyword": "Feature"
 });
-formatter.scenarioOutline({
-  "name": "Ebay Sign in",
-  "description": "",
-  "keyword": "Scenario Outline",
-  "tags": [
-    {
-      "name": "@signIn"
-    }
-  ]
-});
-formatter.step({
-  "name": "I am on ebay website \"https://www.ebay.com/\"",
-  "keyword": "When "
-});
-formatter.step({
-  "name": "I get the title of Ebay to make sure that I am in Ebay",
-  "keyword": "Then "
-});
-formatter.step({
-  "name": "I click on Sign In Button",
-  "keyword": "Then "
-});
-formatter.step({
-  "name": "I type \"\u003cuserName\u003e\" and \"\u003cpassword\u003e\"",
-  "keyword": "Then "
-});
-formatter.step({
-  "name": "I click on Sign In Button",
-  "keyword": "Then "
-});
-formatter.examples({
-  "name": "",
-  "description": "",
-  "keyword": "Examples",
-  "rows": [
-    {
-      "cells": [
-        "userName",
-        "password"
-      ]
-    },
-    {
-      "cells": [
-        "Fener",
-        "Sampiyon1907"
-      ]
-    }
-  ]
-});
 formatter.scenario({
-  "name": "Ebay Sign in",
+  "name": "Ebay Shopping Automation",
   "description": "",
-  "keyword": "Scenario Outline",
+  "keyword": "Scenario",
   "tags": [
     {
-      "name": "@signIn"
+      "name": "@shoppingSamsung"
     }
   ]
 });
 formatter.step({
-  "name": "I am on ebay website \"https://www.ebay.com/\"",
+  "name": "user goes to \"https://www.ebay.com/\"",
   "keyword": "When "
 });
 formatter.match({
-  "location": "SignInStepDefs.i_am_on_ebay_website(String)"
+  "location": "HomeStepDefs.user_goes_to(String)"
 });
 formatter.result({
   "status": "passed"
 });
 formatter.step({
-  "name": "I get the title of Ebay to make sure that I am in Ebay",
+  "name": "user clicks on search button",
   "keyword": "Then "
 });
 formatter.match({
-  "location": "RegisterStepDefs.i_get_the_title_of_Ebay_to_make_sure_that_I_am_in_Ebay()"
+  "location": "HomeStepDefs.user_clicks_on_search_button()"
 });
 formatter.result({
   "status": "passed"
 });
 formatter.step({
-  "name": "I click on Sign In Button",
+  "name": "user searches for \"Samsung\"",
   "keyword": "Then "
 });
 formatter.match({
-  "location": "SignInStepDefs.i_click_on_Sign_In_Button()"
+  "location": "HomeStepDefs.user_searches_for(String)"
 });
 formatter.result({
   "status": "passed"
 });
 formatter.step({
-  "name": "I type \"Fener\" and \"Sampiyon1907\"",
+  "name": "user clicks on Search button to search the item",
   "keyword": "Then "
 });
 formatter.match({
-  "location": "SignInStepDefs.i_type_and(String,String)"
+  "location": "HomeStepDefs.user_clicks_on_Search_button_to_search_the_item()"
 });
 formatter.result({
   "status": "passed"
 });
 formatter.step({
-  "name": "I click on Sign In Button",
+  "name": "user buys the Brand New samsung",
   "keyword": "Then "
 });
 formatter.match({
-  "location": "SignInStepDefs.i_click_on_Sign_In_Button()"
+  "location": "EbayShoppingSamsungStepDefs.user_buys_the_Brand_New_samsung()"
 });
 formatter.result({
   "status": "passed"

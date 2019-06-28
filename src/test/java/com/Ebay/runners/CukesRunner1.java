@@ -17,7 +17,7 @@ import cucumber.api.junit.Cucumber;
 
 },
 
-		tags = {"@signIn" }, 
+		tags = {"@shoppingSamsung" }, 
 		features = "src/test/resources/com/Ebay/features", 
 		glue = "com/Ebay/step_definitions", 
 		dryRun = false, 
